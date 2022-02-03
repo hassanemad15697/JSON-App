@@ -23,6 +23,6 @@ public class App
     	
     	
     	
-        System.out.println( person.getId()+" , "+person.getName()+" , "+person.getAddress()+" , "+person.getPhone().getCode()+" "+person.getPhone().getPh());
+        System.out.println( person.getId()+" , "+person.getPhone().getCode()+" "+person.getPhone().getPh());
     }
 }
